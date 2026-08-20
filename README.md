@@ -12,4 +12,4 @@ locals {
 }
 ```
 
-`stack.json` and `runner.json` each back one data source. The values feed `keepers` blocks, so they must never change: an edit would force resource replacements in every deployment that reads them.
+Each file backs one data source: `platform.json` and `oncall.json` (platform-registry and on-call-team records), plus the older `stack.json` and `runner.json`. The values feed `keepers` blocks, so they must never change: an edit would force resource replacements in every deployment that reads them.

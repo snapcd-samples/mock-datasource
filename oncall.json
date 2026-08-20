@@ -1,0 +1,5 @@
+{
+  "team_id": "team-sre-01",
+  "channel": "#sre-oncall",
+  "escalation_policy": "follow-the-sun"
+}
